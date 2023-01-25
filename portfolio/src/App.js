@@ -3,7 +3,7 @@ import Nav from "./components/Nav";
 
 function App() {
   return (
-    <div className="App">
+    <div className="w-full h-screen">
       <Nav />
     </div>
   );
