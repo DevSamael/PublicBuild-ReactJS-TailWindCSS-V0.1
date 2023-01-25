@@ -1,6 +1,12 @@
+import { Component } from 'react'
 import React from 'react'
 
-const Nav = () => {
+class Nav extends Component {
+  state = {clicked:false};
+  handleClick = () => {
+    this.setState({clicked:!this.state.clicked})
+  }
+  render(){
   return (
     <nav className='flex content-center justify-between bg-gray-700 py-6 shadow-lg'>
       <a href="index.html">
@@ -15,8 +21,12 @@ const Nav = () => {
           <li className='px-5 relative'><a href="index.html" className='text-xl font-semibold hover:text-emerald-400 transition'>Contact</a></li>
         </ul>
       </div>
+      <div id='mobile' onClick={this.handleClick}>
+        <i className={this.state.clicked ? "fas fa-times":"fas fa-bars"}></i>
+      </div>
     </nav>
   )
+}
 }
 
 export default Nav
