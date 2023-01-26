@@ -1,10 +1,10 @@
 import React from 'react'
-import Videoplay from '../Assets/Videoplay.mp4'
+import DevSam from '../Assets/DevSam.mp4'
 
 const Home = () => {
   return (
     <div>
-        <video className='w-full h-screen object-cover'src={Videoplay} autoPlay loop></video>
+      <video src={DevSam} autoPlay loop className='w-full h-screen object-cover flex'></video>
     </div>
   )
 }
