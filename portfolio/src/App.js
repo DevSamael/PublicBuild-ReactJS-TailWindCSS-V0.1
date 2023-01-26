@@ -1,10 +1,14 @@
 import React from "react";
+import Home from "./Pages/Home";
 import Nav from "./components/Nav";
+
+
 
 function App() {
   return (
-    <div className="w-full h-screen">
+    <div>
       <Nav />
+      <Home />
     </div>
   );
 }
