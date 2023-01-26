@@ -20,10 +20,10 @@ const Nav = () => {
         </div>
         <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in bg-black ${open ? 'top-15 opacity-100':'top-[-350px]'}`}>
           <li className='md:ml-8 text-xl md:my-0 my-7 font-bold'>
-            <a href='/Home' className='text-white hover:text-emerald-600 duration-500'>Home</a>
+            <a href='/Main' className='text-white hover:text-emerald-600 duration-500'>Home</a>
           </li>
           <li className='md:ml-8 text-xl md:my-0 my-7 font-bold'>
-            <a href='/About' className='text-white hover:text-emerald-600 duration-500 cursor-pointer'>About</a>
+            <a href='/' className='text-white hover:text-emerald-600 duration-500 cursor-pointer'>About</a>
           </li>
           <li className='md:ml-8 text-xl md:my-0 my-7 font-bold'>
             <a href='/' className='text-white hover:text-emerald-600 duration-500'>Portfolio</a>
