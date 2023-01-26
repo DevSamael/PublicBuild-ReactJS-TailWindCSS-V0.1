@@ -5,8 +5,6 @@ const Home = () => {
   return (
     <div>
       <img className='w-full h-screen object-cover' src={DevSam} alt="Hero img" />
-      <h1>testing</h1>
-      <p>testing</p>
     </div>
   )
 }
