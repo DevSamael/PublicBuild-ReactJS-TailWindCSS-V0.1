@@ -1,5 +1,5 @@
-import {Route, Routes } from "react-router-dom";
 import Nav from "./components/Nav";
+import React from "react";
 import Main from "./Pages/Main";
 
 
@@ -7,8 +7,8 @@ import Main from "./Pages/Main";
 function App(){
   return(
     <>
-    <Nav />
-    <Main />
+      <Nav />
+      <Main />
     </>
   );
 }
