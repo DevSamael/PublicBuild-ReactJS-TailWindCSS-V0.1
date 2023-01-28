@@ -6,6 +6,11 @@ module.exports = {
       padding: {
         '1/3' : '33.33333%',
         '2/3' : '66.66667%',
+      },
+      backgroundImage: {
+        'backimg' : "url('./Assets/BG.gif')",
+        'homebg' : "url('./Assets/DevSambg.png')",
+        'videobg' : "url('./Assets/Videobg.gif')"
       }
     },
   },
