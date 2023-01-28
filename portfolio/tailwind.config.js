@@ -3,10 +3,11 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
     extend: {
-      backgroundImage: {
-        'DevSam' : 'url("./Assets/DevSam.gif")'
+      padding: {
+        '1/3' : '33.33333%',
+        '2/3' : '66.66667%',
       }
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/aspect-ratio')],
 }
