@@ -10,7 +10,8 @@ module.exports = {
       backgroundImage: {
         'backimg' : "url('./Assets/BG.gif')",
         'homebg' : "url('./Assets/DevSambg.png')",
-        'videobg' : "url('./Assets/Videobg.gif')"
+        'videobg' : "url('./Assets/Videobg.gif')",
+        'Herogif' : "url('./Assets/Herogif.gif')"
       }
     },
   },
