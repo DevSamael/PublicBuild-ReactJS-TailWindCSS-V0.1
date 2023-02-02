@@ -3,9 +3,5 @@
 @tailwind utilities;
 
 body{
-    background-color: rgb(0, 0, 0)
-}
-#headerh1 {
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
+    background-color: rgb(7, 7, 7)
 }

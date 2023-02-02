@@ -8,10 +8,7 @@ module.exports = {
         '2/3' : '66.66667%',
       },
       backgroundImage: {
-        'backimg' : "url('./Assets/BG.gif')",
-        'homebg' : "url('./Assets/DevSambg.png')",
-        'videobg' : "url('./Assets/Videobg.gif')",
-        'Herogif' : "url('./Assets/Herogif.gif')"
+        
       }
     },
   },
