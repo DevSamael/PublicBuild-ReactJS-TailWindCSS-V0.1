@@ -8,7 +8,7 @@ module.exports = {
         '2/3' : '66.66667%',
       },
       backgroundImage: {
-        
+       
       }
     },
   },
